@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" />
+    <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-A92OCY9B.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CUZofXIC.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/2-snackbar-DBrVPupS.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-CFrPtiMb.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <a class="back-link" href="./index.html">Go back</a>
+        <h1 class="main-title">Snackbar</h1>
+      </div>
+    </main>
+    <form class="form">
+      <label class="label-delay">
+        Delay (ms)
+        <input class="input-delay" type="number" name="delay" required />
+      </label>
+
+      <fieldset class="radio-field">
+        <legend class="state-legend">State</legend>
+        <div class="box">
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </div>
+      </fieldset>
+
+      <button class="submitbtn" type="submit">Create notification</button>
+    </form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+  </body>
+</html>
